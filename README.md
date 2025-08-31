@@ -6,7 +6,6 @@ The goal is to analyze how people react (positive, negative, neutral) to specifi
 ## Branches
 - **[powerbi](../../tree/powerbi)** → Contains the Power BI dashboard (`.pbix`) and documentation  
 - **[data](../../tree/data)** → Contains a dummy dataset (`.csv`) with the same structure as the original data
-- 
 
 ## Project Overview
 1. **Data Collection**  
