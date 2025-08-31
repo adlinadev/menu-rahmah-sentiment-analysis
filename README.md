@@ -1,59 +1,30 @@
-# Tweet Sentiment Analysis Dashboard
-Visualizing sentiment and engagement metrics from tweets using Power BI.
+# Sentiment Analysis on Twitter Data
 
----
+This project explores **sentiment analysis of tweets** using machine learning and visualization in **Power BI**.  
+The goal is to analyze how people react (positive, negative, neutral) to specific topics based on Twitter data.
+
+## Branches
+- **[powerbi-dashboard](../../tree/powerbi-dashboard)** → Contains the Power BI dashboard (`.pbix`) and documentation  
+- **[data](../../tree/data)** → Contains a dummy dataset (`.csv`) with the same structure as the original data  
 
 ## Project Overview
-This repository demonstrates a Power BI dashboard created to analyze tweet sentiment.
-The dashboard summarizes sentiment distribution, user engagement (likes, retweets, replies), and key insights.
+1. **Data Collection**  
+   - Tweets were collected using a tweet harvesting tool.  
+   - All tweets were translated into English for consistency.  
+   - Due to confidentiality, only a **dummy dataset** is shared publicly (see `data` branch).
+
+2. **Sentiment Classification**  
+   - Tweets were categorized into three classes: **Positive**, **Negative**, **Neutral**.  
+   - Machine learning models were tested to evaluate classification performance.  
+
+3. **Visualization in Power BI**  
+   - Built an interactive dashboard to showcase sentiment trends and engagement metrics.  
+   - See `powerbi-dashboard` branch for the `.pbix` file.
+
+## Notes
+- The real dataset cannot be shared publicly.  
+- This repo provides a dummy dataset and a Power BI dashboard for demonstration.  
 
 ---
-
-## Dataset Description
-- The Power BI dashboard was created using **real tweet data**, but the raw dataset is not included for privacy.
-- A **dummy dataset** is included (`data/sample_tweets_dummy.csv`) to show the columns used:
-
-| Column Name        | Description                              |
-|-------------------|------------------------------------------|
-| URL               | Tweet link                               |
-| Date              | Date of the tweet                        |
-| Tweet             | Text content of the tweet                |
-| English           | Whether the tweet is in English          |
-| Replies           | Number of replies                        |
-| Retweets          | Number of retweets                       |
-| Likes             | Number of likes                          |
-| Quotes            | Number of quote tweets                   |
-| Conv_ID           | Conversation ID                          |
-| Language          | Language of the tweet                     |
-| Links             | Any external links in the tweet          |
-| Media             | Media attached to the tweet              |
-| Retweeted_Tweet   | If the tweet is a retweet, original text |
-| Bookmarks         | Number of bookmarks                       |
-| Username          | Username of the author                    |
-| Sentiment         | Sentiment label: positive / negative / neutral |
-
----
-
-## Workflow / Methodology
-Even though the raw dataset is not included, the workflow for this project was:
-
-1. **Data Preprocessing** – Cleaning, tokenization, labeling tweets  
-2. **Machine Learning (Descriptive)** – SVM & Naive Bayes; evaluation metrics: accuracy, precision, recall, F1-score  
-3. **Power BI Visualization** – Sentiment distribution, engagement metrics, key insights  
-
----
-
-## How to Explore
-1. Open `powerbi/sentiment dashboard.pbix` in **Power BI Desktop**.  
-2. Optional: Load `data/sample_tweets_dummy.csv` to view column structure.  
-
----
-
-## Notes / Disclaimer
-- The dashboard is fully functional, but the underlying raw dataset is omitted for privacy.  
-- Dummy dataset is provided solely to illustrate **data structure and workflow**.  
-
----
-
-## License
-This project is for demonstration purposes only.
+👩‍💻 Developed by **Adlina Kamalulail**  
+📧 adlina.kamalulail@gmail.com | [LinkedIn](https://linkedin.com/in/adlinak) | [GitHub](https://github.com/adlinadev)
