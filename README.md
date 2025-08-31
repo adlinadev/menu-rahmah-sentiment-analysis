@@ -22,7 +22,7 @@ The goal is to analyze how people react (positive, negative, neutral) to specifi
    - See `powerbi-dashboard` branch for the `.pbix` file.  
 
 ### Dashboard Preview
-![Dashboard Preview](https://github.com/adlinadev/your-repo/blob/powerbi-dashboard/images/dashboard-preview.png?raw=true)
+![Dashboard Preview](https://github.com/adlinadev/tweet-sentiment-dashboard/blob/powerbi-dashboard/images/dashboard-preview.png?raw=true)
 
 
 ## Notes
