@@ -1,13 +1,17 @@
 # Tweet Sentiment Analysis Dashboard
-
-This repository showcases a **Power BI dashboard** visualizing sentiment analysis results from tweets.  
+Visualizing sentiment and engagement metrics from tweets using Power BI.
 
 ---
 
-## Dataset
+## Project Overview
+This repository demonstrates a Power BI dashboard created to analyze tweet sentiment.
+The dashboard summarizes sentiment distribution, user engagement (likes, retweets, replies), and key insights.
 
-- The Power BI dashboard was created using **real tweet data**, but the raw dataset is **not included** to protect privacy.  
-- A **dummy dataset** is provided in `data/sample_tweets_dummy.csv` to show the columns used:
+---
+
+## Dataset Description
+- The Power BI dashboard was created using **real tweet data**, but the raw dataset is not included for privacy.
+- A **dummy dataset** is included (`data/sample_tweets_dummy.csv`) to show the columns used:
 
 | Column Name        | Description                              |
 |-------------------|------------------------------------------|
@@ -30,9 +34,8 @@ This repository showcases a **Power BI dashboard** visualizing sentiment analysi
 
 ---
 
-## Workflow Description
-
-Even though the raw data is not included, the workflow was as follows:
+## Workflow / Methodology
+Even though the raw dataset is not included, the workflow for this project was:
 
 1. **Data Preprocessing** – Cleaning, tokenization, labeling tweets  
 2. **Machine Learning (Descriptive)** – SVM & Naive Bayes; evaluation metrics: accuracy, precision, recall, F1-score  
@@ -41,19 +44,16 @@ Even though the raw data is not included, the workflow was as follows:
 ---
 
 ## How to Explore
-
 1. Open `powerbi/dashboard.pbix` in **Power BI Desktop**.  
-2. Optional: Load `data/sample_tweets_dummy.csv` to see the column structure.
+2. Optional: Load `data/sample_tweets_dummy.csv` to view column structure.  
 
 ---
 
-## Notes
-
-- The **dashboard is fully functional**, but the underlying raw dataset is omitted for privacy.  
+## Notes / Disclaimer
+- The dashboard is fully functional, but the underlying raw dataset is omitted for privacy.  
 - Dummy dataset is provided solely to illustrate **data structure and workflow**.  
 
 ---
 
 ## License
-
 This project is for demonstration purposes only.
