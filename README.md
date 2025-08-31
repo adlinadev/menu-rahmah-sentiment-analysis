@@ -44,7 +44,7 @@ Even though the raw dataset is not included, the workflow for this project was:
 ---
 
 ## How to Explore
-1. Open `powerbi/dashboard.pbix` in **Power BI Desktop**.  
+1. Open `powerbi/sentiment dashboard.pbix` in **Power BI Desktop**.  
 2. Optional: Load `data/sample_tweets_dummy.csv` to view column structure.  
 
 ---
