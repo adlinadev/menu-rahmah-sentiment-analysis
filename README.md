@@ -5,13 +5,13 @@ The goal is to analyze how people react (positive, negative, neutral) to specifi
 
 ## Branches
 - **[powerbi-dashboard](../../tree/powerbi-dashboard)** → Contains the Power BI dashboard (`.pbix`) and documentation  
-- **[data](../../tree/data)** → Contains a dummy dataset (`.csv`) with the same structure as the original data
+- **[data](../../tree/data)** → Contains a dummy dataset (`.csv`) with the same structure as the original data  
 
 ## Project Overview
 1. **Data Collection**  
    - Tweets were collected using a tweet harvesting tool.  
    - All tweets were translated into English for consistency.  
-   - Due to confidentiality, only a **dummy dataset** is shared publicly (see `data` branch).
+   - Due to confidentiality, only a **dummy dataset** is shared publicly (see `data` branch).  
 
 2. **Sentiment Classification**  
    - Tweets were categorized into three classes: **Positive**, **Negative**, **Neutral**.  
@@ -19,7 +19,10 @@ The goal is to analyze how people react (positive, negative, neutral) to specifi
 
 3. **Visualization in Power BI**  
    - Built an interactive dashboard to showcase sentiment trends and engagement metrics.  
-   - See `powerbi-dasboard` branch for the `.pbix` file.
+   - See `powerbi-dashboard` branch for the `.pbix` file.  
+
+### Dashboard Preview
+![Dashboard Preview](images/dashboard-preview.png)
 
 ## Notes
 - The real dataset cannot be shared publicly.  
