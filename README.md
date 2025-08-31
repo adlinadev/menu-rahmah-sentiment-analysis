@@ -21,7 +21,8 @@ The goal is to analyze how people react (positive, negative, neutral) to specifi
    - Built an interactive dashboard to showcase sentiment trends and engagement metrics.  
    - See `powerbi-dashboard` branch for the `.pbix` file.  
 
-![Dashboard Preview](https://github.com/your-username/your-repo/blob/powerbi-dashboard/images/dashboard-preview.png?raw=true)
+### Dashboard Preview
+![Dashboard Preview](https://github.com/adlinadev/your-repo/blob/powerbi-dashboard/images/dashboard-preview.png?raw=true)
 
 
 ## Notes
