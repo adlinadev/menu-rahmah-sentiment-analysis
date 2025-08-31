@@ -4,7 +4,7 @@ This project explores **sentiment analysis of tweets** using machine learning an
 The goal is to analyze how people react (positive, negative, neutral) to specific topics based on Twitter data.
 
 ## Branches
-- **[powerbi](../../tree/powerbi)** → Contains the Power BI dashboard (`.pbix`) and documentation  
+- **[powerbi-dashboard](../../tree/powerbi-dashboard)** → Contains the Power BI dashboard (`.pbix`) and documentation  
 - **[data](../../tree/data)** → Contains a dummy dataset (`.csv`) with the same structure as the original data
 
 ## Project Overview
@@ -19,7 +19,7 @@ The goal is to analyze how people react (positive, negative, neutral) to specifi
 
 3. **Visualization in Power BI**  
    - Built an interactive dashboard to showcase sentiment trends and engagement metrics.  
-   - See `powerbi-dashboard` branch for the `.pbix` file.
+   - See `powerbi-dasboard` branch for the `.pbix` file.
 
 ## Notes
 - The real dataset cannot be shared publicly.  
